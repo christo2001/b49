@@ -1,4 +1,4 @@
-Difference  http and https ?
+1.Difference  http and https ?
 
 HTTP:
    An HTTP stands for Hypertext Transfer Protocol. The HTTP protocol provides communication between different communication systems. 
@@ -11,3 +11,21 @@ HTTPS:
    while HTTP ensures the security of the data. Therefore, we can say that HTTPS is a secure version of the HTTP protocol.
    This protocol allows transferring the data in an encrypted form. The use of HTTPS protocol is mainly required where we need to
    enter the bank account details.
+
+
+
+2. what is object and it's internal representation ?
+
+    Objects, in JavaScript, is it’s most important data-type and forms the building blocks for modern JavaScript.
+    These objects are quite different from JavaScript’s primitive data-types(Number, String, Boolean, null, undefined and symbol)
+    in the sense that while these primitive data-types all store a single value each (depending on their types).
+    Objects are more complex and each object may contain any combination of these primitive data-types as well as reference data-types.
+    That reference or pointer points to the location in memory where the object is stored. The variables don’t actually store the value.
+
+    INTERNAL REPRESENTATION :
+    Most objects contain all their properties in a single block of memory (‘a’ and ‘b’). All blocks of memory have a pointer to a map, 
+    which describes their structure.
+
+    Named properties that don’t fit in an object are usually stored in an overflow array (‘c’ and ‘d’).
+
+    Numbered properties are stored separately, usually in a contiguous array.
